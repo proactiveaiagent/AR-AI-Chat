@@ -1,0 +1,1434 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f1c1 (b0109b07edb8) revision 11538587'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15583 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\unity installation location\2022.3.62f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/unityproject/Rokid_AIchat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3185
+Successfully changed project path to: D:/unity/unityproject/Rokid_AIchat
+D:/unity/unityproject/Rokid_AIchat
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34784]  Target information:
+
+Player connection [34784]  * "[IP] 172.18.80.1 [Port] 0 [Flags] 2 [Guid] 470271155 [EditorId] 470271155 [Version] 1048832 [Id] WindowsEditor(7,luobo¤ÎµçÄÔ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34784]  * "[IP] 10.163.192.119 [Port] 0 [Flags] 2 [Guid] 470271155 [EditorId] 470271155 [Version] 1048832 [Id] WindowsEditor(7,luobo¤ÎµçÄÔ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [34784] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [34784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 39.29 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f1c1 (b0109b07edb8)
+[Subsystems] Discovering subsystems at path D:/unity/unity installation location/2022.3.62f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/unityproject/Rokid_AIchat/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6607
+Shader 'Hidden/Amazing Assets/Wireframe Shader/Dynamic (SM5)/Geometry Shader/Transparent/ZWrite/Wire Only': fallback shader 'Hidden/Amazing Assets/Wireframe Shader/Vertex Lit/Transparent/Wire Only' not found
+Initialize mono
+Mono path[0] = 'D:/unity/unity installation location/2022.3.62f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/unity installation location/2022.3.62f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/unity installation location/2022.3.62f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/unity installation location/2022.3.62f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/unity installation location/2022.3.62f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011251 seconds.
+- Loaded All Assemblies, in  0.264 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 358 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.570 seconds
+Domain Reload Profiling: 832ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (78ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (570ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (418ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (83ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.698 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1329ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (638ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Amazing Assets/Wireframe Shader/Dynamic (SM5)/Geometry Shader/Transparent/ZWrite/Wire Only': fallback shader 'Hidden/Amazing Assets/Wireframe Shader/Vertex Lit/Transparent/Wire Only' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 32.35 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (1.9 MB). Loaded Objects now: 7718.
+Memory consumption went from 275.8 MB to 273.8 MB.
+Total: 5.044100 ms (FindLiveObjects: 0.662400 ms CreateObjectMapping: 0.185900 ms MarkObjects: 3.448800 ms  DeleteObjects: 0.746100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 719267.386484 seconds.
+  path: Assets/yunjinprefab/Prefabs
+  artifactKey: Guid(080ed6b8d6bb3c046a1ebeb318bc1ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs using Guid(080ed6b8d6bb3c046a1ebeb318bc1ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '813a265ea710af7223f020b801558d9f') in 0.002346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/yunjinprefab/Prefabs/zhiji_chaijietest2_1.prefab
+  artifactKey: Guid(9eb312514a8447945bf5170c0fcad164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/zhiji_chaijietest2_1.prefab using Guid(9eb312514a8447945bf5170c0fcad164) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cb9c14aec307f98f71fae9f61d9dd7f5') in 0.009339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.313859 seconds.
+  path: Assets/yunjinprefab/Prefabs/zhiji_chaijietest2_2.prefab
+  artifactKey: Guid(c1661fe4792c8ee44acf8a81ed6b1ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/zhiji_chaijietest2_2.prefab using Guid(c1661fe4792c8ee44acf8a81ed6b1ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '38ce14ffd9034591c0bce45a9011be7b') in 0.001231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.627753 seconds.
+  path: Assets/yunjinprefab/Prefabs/prefabs2
+  artifactKey: Guid(f7b52245cc0db2b4faecf6be4d5f2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/prefabs2 using Guid(f7b52245cc0db2b4faecf6be4d5f2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '05bf1c628d2c3ea491524a37586cb9cc') in 0.000504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.369194 seconds.
+  path: Assets/yunjinprefab/Prefabs/[RKInput] Variant.prefab
+  artifactKey: Guid(93bae3328f40f924abdde1cff909839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/[RKInput] Variant.prefab using Guid(93bae3328f40f924abdde1cff909839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '04456b74c323bca95f130a99dc7de90d') in 0.013206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 44.050252 seconds.
+  path: Assets/yunjinprefab/Scripts
+  artifactKey: Guid(7268e3e24cf779a4fa7039a12ae69609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts using Guid(7268e3e24cf779a4fa7039a12ae69609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '761fb6cb4a8f4cd4f739eb0c9a049166') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.426573 seconds.
+  path: Assets/yunjinprefab/Scripts/FUN1_Map_Anchor_HoverTextController.cs
+  artifactKey: Guid(68ab878ab0c891c4fa82c7140e78b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/FUN1_Map_Anchor_HoverTextController.cs using Guid(68ab878ab0c891c4fa82c7140e78b995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5aeeddcd816078220ecf058e0fa63041') in 0.000597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.520891 seconds.
+  path: Assets/yunjinprefab/Scripts/Dismounting
+  artifactKey: Guid(a47ce417ab2d828468301dc1b80befb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/Dismounting using Guid(a47ce417ab2d828468301dc1b80befb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '014a6eae5424f05a3754e3e8de7f1106') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.623267 seconds.
+  path: Assets/yunjinprefab/ChatAI/prefabs
+  artifactKey: Guid(4e55b7e1e3e719d4ea1239b0927d08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/ChatAI/prefabs using Guid(4e55b7e1e3e719d4ea1239b0927d08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1ae6c4ed47cbf07253916d55d75416e1') in 0.000534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.489504 seconds.
+  path: Assets/yunjinprefab/ChatAI/prefabs/tts_stt.prefab
+  artifactKey: Guid(353c9003246e45c43869c193c9d468ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/ChatAI/prefabs/tts_stt.prefab using Guid(353c9003246e45c43869c193c9d468ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5410ecf140774f471e3c080dd4992d95') in 0.002710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.471170 seconds.
+  path: Assets/yunjinprefab/ChatAI/Scripts
+  artifactKey: Guid(35baf4c9578c2d948b3a5bb5f0364ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/ChatAI/Scripts using Guid(35baf4c9578c2d948b3a5bb5f0364ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7760a31cd4445d8ac2e71329b21aa2db') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.391376 seconds.
+  path: Assets/yunjinprefab/ChatAI/Scripts/scripts
+  artifactKey: Guid(d1b4c06d31d8603409fc6e71dc1e656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/ChatAI/Scripts/scripts using Guid(d1b4c06d31d8603409fc6e71dc1e656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6bbe7e4e454d816372717af40e0c38bb') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.207106 seconds.
+  path: Assets/yunjinprefab/ChatAI/Scripts/scripts/TTS&&STT
+  artifactKey: Guid(9a75c28331111f94ba2b2a67d0404b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/ChatAI/Scripts/scripts/TTS&&STT using Guid(9a75c28331111f94ba2b2a67d0404b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bace7e384f5f9246819c0dd5aaee7db9') in 0.000909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.479655 seconds.
+  path: Assets/yunjinprefab/ChatAI/Scripts/scripts/TTS&&STT/OpenAI
+  artifactKey: Guid(36134f4937e6b4d42a7659b2cc0eabd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/ChatAI/Scripts/scripts/TTS&&STT/OpenAI using Guid(36134f4937e6b4d42a7659b2cc0eabd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f28ad9fd45fdd756eb7ed41bb3b4e8a6') in 0.012059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.434350 seconds.
+  path: Assets/yunjinprefab/ChatAI/Scripts/DialogueLogger.cs
+  artifactKey: Guid(abe119b00b6463143ae31f0c353b1a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/ChatAI/Scripts/DialogueLogger.cs using Guid(abe119b00b6463143ae31f0c353b1a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '258c92aeb884216b0ff60ceb1c3d09f6') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 69.041258 seconds.
+  path: Assets/yunjinprefab/Scripts/FUN4_PalmModelSpawner.cs
+  artifactKey: Guid(d32b652c33fb4684fb07de80bf38d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/FUN4_PalmModelSpawner.cs using Guid(d32b652c33fb4684fb07de80bf38d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2bbc01fc27480beeb55cb3f948d2957b') in 0.000589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.550 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.710 seconds
+Domain Reload Profiling: 2253ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (319ms)
+		LoadAssemblies (357ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1710ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Amazing Assets/Wireframe Shader/Dynamic (SM5)/Geometry Shader/Transparent/ZWrite/Wire Only': fallback shader 'Hidden/Amazing Assets/Wireframe Shader/Vertex Lit/Transparent/Wire Only' not found
+Refreshing native plugins compatible for Editor in 26.62 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 106 unused Assets / (2.0 MB). Loaded Objects now: 7715.
+Memory consumption went from 240.6 MB to 238.6 MB.
+Total: 4.580500 ms (FindLiveObjects: 0.487700 ms CreateObjectMapping: 0.131100 ms MarkObjects: 3.015200 ms  DeleteObjects: 0.945400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9b9c037c92b3a316e144d89fddf41bc0 -> 7bea606187803a1c09a2bb3b1f9f4696
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13.371562 seconds.
+  path: Assets/yunjinprefab/Scripts/VoiceMapAndVideoController.cs
+  artifactKey: Guid(c8d6d2a43575626458da5135db61dbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/VoiceMapAndVideoController.cs using Guid(c8d6d2a43575626458da5135db61dbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6c5f388d1bd2666ef4474be816199879') in 0.006421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.569 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.276 seconds
+Domain Reload Profiling: 1832ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Amazing Assets/Wireframe Shader/Dynamic (SM5)/Geometry Shader/Transparent/ZWrite/Wire Only': fallback shader 'Hidden/Amazing Assets/Wireframe Shader/Vertex Lit/Transparent/Wire Only' not found
+Refreshing native plugins compatible for Editor in 25.05 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (2.0 MB). Loaded Objects now: 7720.
+Memory consumption went from 240.6 MB to 238.6 MB.
+Total: 4.438300 ms (FindLiveObjects: 0.598400 ms CreateObjectMapping: 0.145300 ms MarkObjects: 2.861500 ms  DeleteObjects: 0.832300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3ac7632dafb2a44e23ccc5bc0662ddb -> 7bea606187803a1c09a2bb3b1f9f4696
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.715449 seconds.
+  path: Assets/yunjinprefab/Scripts/VoiceChat.cs
+  artifactKey: Guid(fd18ca72a4c306f41bef102dad8f411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/VoiceChat.cs using Guid(fd18ca72a4c306f41bef102dad8f411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cf2f1d0d558e130f6658a975e60b0025') in 0.001700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.529 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.307 seconds
+Domain Reload Profiling: 1828ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Amazing Assets/Wireframe Shader/Dynamic (SM5)/Geometry Shader/Transparent/ZWrite/Wire Only': fallback shader 'Hidden/Amazing Assets/Wireframe Shader/Vertex Lit/Transparent/Wire Only' not found
+Refreshing native plugins compatible for Editor in 18.55 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (2.0 MB). Loaded Objects now: 7725.
+Memory consumption went from 240.5 MB to 238.5 MB.
+Total: 4.495000 ms (FindLiveObjects: 0.494400 ms CreateObjectMapping: 0.132900 ms MarkObjects: 2.905300 ms  DeleteObjects: 0.961400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 6c75017aa4fd32e792f085bf81ea9bde -> 7bea606187803a1c09a2bb3b1f9f4696
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.702575 seconds.
+  path: Assets/yunjinprefab/Scripts/Arena_VideoPlayer.cs
+  artifactKey: Guid(8c39a66b57a23a444a527e29ab68111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/Arena_VideoPlayer.cs using Guid(8c39a66b57a23a444a527e29ab68111e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'fbcd6c84bc70743be36e3df6802498d7') in 0.007721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.943088 seconds.
+  path: Assets/yunjinprefab/Scripts/Dismounting/CameraRot.cs
+  artifactKey: Guid(a916b26fded09d8438d1b653bfb6b528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/Dismounting/CameraRot.cs using Guid(a916b26fded09d8438d1b653bfb6b528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '88e4ff497d1a97f638197fb9039ecc5e') in 0.000602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.534992 seconds.
+  path: Assets/yunjinprefab/Scripts/Dismounting/ITween.cs
+  artifactKey: Guid(8cdaa118c0d6f304abf0623f19d80544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/Dismounting/ITween.cs using Guid(8cdaa118c0d6f304abf0623f19d80544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '053349edb1459208283d039f938ab3b1') in 0.000756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.815278 seconds.
+  path: Assets/yunjinprefab/Scripts/Dismounting/SplitMachine.cs
+  artifactKey: Guid(38ce11e066df5eb4fb59ea280da65145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Scripts/Dismounting/SplitMachine.cs using Guid(38ce11e066df5eb4fb59ea280da65145) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6f77ede6d5cb88c8e09ee138e792aa2f') in 0.000579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.572 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.295 seconds
+Domain Reload Profiling: 1857ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (331ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (58ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (470ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Amazing Assets/Wireframe Shader/Dynamic (SM5)/Geometry Shader/Transparent/ZWrite/Wire Only': fallback shader 'Hidden/Amazing Assets/Wireframe Shader/Vertex Lit/Transparent/Wire Only' not found
+Refreshing native plugins compatible for Editor in 28.65 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (1.9 MB). Loaded Objects now: 7724.
+Memory consumption went from 240.3 MB to 238.4 MB.
+Total: 4.537500 ms (FindLiveObjects: 0.596200 ms CreateObjectMapping: 0.140100 ms MarkObjects: 3.007200 ms  DeleteObjects: 0.793100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3bb150f587983b6579423da21f1acf25 -> 7bea606187803a1c09a2bb3b1f9f4696
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.625606 seconds.
+  path: Assets/yunjinprefab/newnewprefabs/VoiceManager.prefab
+  artifactKey: Guid(5ebddc7dd1854bd45b26a0ba2e728b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/newnewprefabs/VoiceManager.prefab using Guid(5ebddc7dd1854bd45b26a0ba2e728b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '80fb5ac3626bbc2eba94d12598e79e4b') in 0.032288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 5.946059 seconds.
+  path: Assets/yunjinprefab/newnewprefabs/TrackedImageObj_bird.prefab
+  artifactKey: Guid(98c5234861a80844e92475db21a08ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/newnewprefabs/TrackedImageObj_bird.prefab using Guid(98c5234861a80844e92475db21a08ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5a5f26a690b4328e3ae3d9043c2dcb67') in 0.003358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 5.824575 seconds.
+  path: Assets/yunjinprefab/newnewprefabs/summary.prefab
+  artifactKey: Guid(c7e60accce046a046b7e7108fac75faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/newnewprefabs/summary.prefab using Guid(c7e60accce046a046b7e7108fac75faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '14d8f5a3e83f8994505825dc1b3e4373') in 0.001903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.374301 seconds.
+  path: Assets/yunjinprefab/newnewprefabs/Global Volume (1).prefab
+  artifactKey: Guid(a1ccff7d85432344db6a4a0fe6ef7d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/newnewprefabs/Global Volume (1).prefab using Guid(a1ccff7d85432344db6a4a0fe6ef7d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f25ac9568c244c54e2a61a59b227258a') in 0.006947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.237044 seconds.
+  path: Assets/yunjinprefab/newnewprefabs/Global Volume.prefab
+  artifactKey: Guid(84b62abe6892f7d4f8cbc3a6e17ea4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/newnewprefabs/Global Volume.prefab using Guid(84b62abe6892f7d4f8cbc3a6e17ea4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'c55be9f773e9410e850494395d4e6308') in 0.003046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 25.578749 seconds.
+  path: Assets/yunjinprefab/newprefabs
+  artifactKey: Guid(ea4ab6ab0e788c348989dc2b8b2d8d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/newprefabs using Guid(ea4ab6ab0e788c348989dc2b8b2d8d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '75bb575031bc532231689bd4036969e2') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.946947 seconds.
+  path: Assets/yunjinprefab/Prefabs/prefabs2/[RKInput] Variant.prefab
+  artifactKey: Guid(1f372cefae365be4890d6708f238aac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/prefabs2/[RKInput] Variant.prefab using Guid(1f372cefae365be4890d6708f238aac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '64e872efebb6736ea48df6c74eb3cd86') in 0.005122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.896421 seconds.
+  path: Assets/yunjinprefab/Prefabs/prefabs2/AIChatManager.prefab
+  artifactKey: Guid(a70a70c495150c7479adc437d290e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/prefabs2/AIChatManager.prefab using Guid(a70a70c495150c7479adc437d290e91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b125d9be55493a893002c4a7bf5c2988') in 0.008785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1.895541 seconds.
+  path: Assets/yunjinprefab/Prefabs/prefabs2/AR Grid Plane.prefab
+  artifactKey: Guid(d3ec212ee9b3d14489031ef885b0473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/prefabs2/AR Grid Plane.prefab using Guid(d3ec212ee9b3d14489031ef885b0473a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ac2df79f78ced8ee6237f753bf3ceb81') in 0.213480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.869338 seconds.
+  path: Assets/yunjinprefab/Prefabs/prefabs2/birdandani(over).prefab
+  artifactKey: Guid(0ab23dd1f26cd8e49b0364899ed1488e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/prefabs2/birdandani(over).prefab using Guid(0ab23dd1f26cd8e49b0364899ed1488e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '01bf83153db973d56df0400bd333d4e0') in 0.001258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.224653 seconds.
+  path: Assets/yunjinprefab/Prefabs/prefabs2/Directional Light.prefab
+  artifactKey: Guid(2122dfcaf21d4fc4f8ab511fd471c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/prefabs2/Directional Light.prefab using Guid(2122dfcaf21d4fc4f8ab511fd471c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '02a6d256c2d9649ee8baa23303d7f240') in 0.002815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 22.034818 seconds.
+  path: Assets/yunjinprefab/Prefabs/prefabs2/zhiji_chaijietest2_12.prefab
+  artifactKey: Guid(f66dae1ff2d25d442b349d2d27f2a3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/yunjinprefab/Prefabs/prefabs2/zhiji_chaijietest2_12.prefab using Guid(f66dae1ff2d25d442b349d2d27f2a3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '0bf7c13742e3d31e36ef50dcf5b61576') in 0.001172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 129.120684 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(a67fc98da1506a444a60e0e28142a8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(a67fc98da1506a444a60e0e28142a8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f06530794c3bad014f7e4035163cd22d') in 0.000650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.617 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.356 seconds
+Domain Reload Profiling: 2966ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2356ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Amazing Assets/Wireframe Shader/Dynamic (SM5)/Geometry Shader/Transparent/ZWrite/Wire Only': fallback shader 'Hidden/Amazing Assets/Wireframe Shader/Vertex Lit/Transparent/Wire Only' not found
+Refreshing native plugins compatible for Editor in 24.02 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (2.0 MB). Loaded Objects now: 7779.
+Memory consumption went from 242.1 MB to 240.1 MB.
+Total: 4.810600 ms (FindLiveObjects: 0.757100 ms CreateObjectMapping: 0.336900 ms MarkObjects: 2.841000 ms  DeleteObjects: 0.874900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GPTSoVITSTextToSpeech.cs: ea19d245e5f25b7a72ba54faa9597db7 -> a68704a96254576808c0d9b7c066c756
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/WebGLInputMobile.cs: 7d683f3fbd66c3482e9e7d935298590d -> 40dd56566bf085b81e4f5cfbd298c10b
+  custom:scripting/monoscript/fileName/AudioMouthController.cs: 36a60e1ec3d2473e6310a5ffd43fb4f8 -> 3599d49c957cb687e40da3654090bba2
+  custom:scripting/monoscript/fileName/ChatDeepSeek.cs: ee12f6fe221e128eebd47aa2c50450c2 -> 059dd665b53ae8fbad0c4848d7974fab
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GPTSoVITSFASTAPI.cs: 22b795ccfc39b8e4b1de4d218f244c07 -> 721a084bd06049094191971e2ba9af89
+  custom:scripting/monoscript/fileName/BaiduTextToSpeech.cs: 7266192c11dadc48e9726e40a6c2c622 -> 1837222cb0950bfe963ebc42ef61c05c
+  custom:scripting/monoscript/fileName/WrappedInputField.cs: e4afd9d78a51b9ac8aaaeaf1ec367df5 -> 486c72b4c9f4a95af8026409b0ed12cd
+  custom:scripting/monoscript/fileName/AudioToLipSample.cs: 22ef798e4ba1be2fc7c70065e105e201 -> 95cb22de8ff3077a1fe653d8f097b343
+  custom:scripting/monoscript/fileName/RTChatSample.cs: 3eba56aea1115e2680db79df728bc731 -> 0e9704096975723a4e4fdfc4f7319313
+  custom:scripting/monoscript/fileName/XunfeiSettings.cs: 2fbfab50eed4e594460a5d98c30a9430 -> 28996bb5b9b4a18914c6b964653646d6
+  custom:scripting/monoscript/fileName/WavUtility.cs: 0b94047c337a6f07882f8320106e8dc5 -> aac1c3b9b2ff24c6437a36b760f27781
+  custom:scripting/monoscript/fileName/LLM.cs: 075093572c1cbe36bacad69943355a45 -> fa1cbac4c6435584a52061370880b41e
+  custom:scripting/monoscript/fileName/STT.cs: 6020b6ad432af15fd8061bd3fc53918b -> ff1e536b30a4fdc45420d205f2b84d06
+  custom:scripting/monoscript/fileName/WOV.cs: 1873a5695a69a8c1777b7e3c80ebef9c -> 472dccf606928b3dd6167a98417bd6a2
+  custom:scripting/monoscript/fileName/XunfeiSpeechToText.cs: f7cbb1d3353be0b9d0557c66e1e17bc9 -> 8e503e6e681228ea6860acde6669535b
+  custom:scripting/monoscript/fileName/BaiduSpeechToText.cs: bb9d3e66a88b70df3ae582e880019c7e -> 8d2f1ec8f0aafc18327aada1fd44e20c
+  custom:scripting/monoscript/fileName/chatgptTurbo.cs: de687161007834a7c0801696cd2b2362 -> a9dc24759e44892a9090c9f31878fd96
+  custom:scripting/monoscript/fileName/ChatQW.cs: f69a5f43699e8f54e0a86980d3f442c7 -> bdeb300550233151ff60be815a2b29dc
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/DialogueLogger.cs: 781fac9fdb530ab39d71f5462599a935 -> f8a0137973c4c67787330c9cd16bbee0
+  custom:scripting/monoscript/fileName/ChatPrefab.cs: 0e04bd20d06d598c07051b7a67d3c014 -> 0f6e73e4fda4c73af472e45512b86384
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/chatGPT.cs: 9904cd8970b88d936a13e718d47d36b9 -> 890cbbcb8f4d852b421c6c0ebcc13d13
+  custom:scripting/monoscript/fileName/BaiduSettings.cs: 1f70839cf708261261b3326b47156f4f -> e462df85d0a1bfe902e4a4f48df3a61c
+  custom:scripting/monoscript/fileName/WebGLInput.cs: 77351e98e59fd8d5df701e65c47347e3 -> 43d626c8269142b665bda530c04bbfb1
+  custom:scripting/monoscript/fileName/VoiceInputs.cs: 29d3914fb1c24bf88b11ace5630c4787 -> d29e3d2c6fe5c9080bba40a9f94d51c6
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OVRLipSync.cs: 9acb51ed6b6570c39e5640b10e4cb6aa -> f85030cca0d2a9133410e2e1d8f5a714
+  custom:scripting/monoscript/fileName/AzureTextToSpeech.cs: c6294e71e3a6770f6aca8577b97c29b9 -> e1f2e268ccef7e6d3e6e87edde3fb177
+  custom:scripting/monoscript/fileName/AzureSettings.cs: cd8e6b4bce6e9be7487c34c639721305 -> 0ee8ea6fcb2e011d825e0b5fc82b99c5
+  custom:scripting/monoscript/fileName/AppBuilderBaidu.cs: a2ba2d6578f68d736c80a5aec920b606 -> cb6998ff9f6403472ada5c8e6cac9749
+  custom:scripting/monoscript/fileName/AzureSpeechToText.cs: 48ece89ab1f66431b627239e77dfc518 -> b4e6ab83c9a7dff08c17ae92eb3af4df
+  custom:scripting/monoscript/fileName/OpenAITextToSpeech.cs: 6ce7c060f22cef4401edc307baa90cda -> c8ed6e7d770a8f459fca73adf1c14dcc
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/chatGLM.cs: cbbb8e64b90636a97991430f9702a981 -> 1663675411a5cd7023626996bac08b69
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 8cda43c50a47ac3548036358e163c3c7 -> 7bea606187803a1c09a2bb3b1f9f4696
+  custom:scripting/monoscript/fileName/ALiYunTextToSpeech.cs: 5dac6206b07e295380e5aab3ea4c5d54 -> 5947bbdba9b3600005955ddfa826d0ea
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/Audio2LipScript.cs: 369c9c9ebf8c90e2e66281cf286b7410 -> f32823459dfe828789d8dc5a7a1440d5
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/chatRWKV.cs: 08584730d6cbdb37736829d660d13228 -> 7da58ff3bc199e76ddc6acaa33c79df9
+  custom:scripting/monoscript/fileName/RTSpeechHandler.cs: e5e0969587409813f8d79053856223c4 -> 0c399d7da0d14aae8f09c0f83ea73f3e
+  custom:scripting/monoscript/fileName/XunfeiTextToSpeech.cs: 5054deabc5569b1dc85b938de7d13a74 -> 8b2f0c3e8154af9a5d5fae03e6a7fe76
+  custom:scripting/monoscript/fileName/WanXImageGenerator.cs: 146c434fd0726705dfd2577a77d1ac3a -> b889d4617454b3c70c73b4bb810b2105
+  custom:scripting/monoscript/fileName/WebGLWindow.cs: 7b4876243cb16a983f880f640bd90923 -> f955d4804a614edefd0693a436454073
+  custom:scripting/monoscript/fileName/OpenAISpeechToText.cs: 02e982e24404df42c536e362f03eeb34 -> f49c0dd6fb4829328980b136788b6a60
+  custom:scripting/precompiled-assembly-types:Newtonsoft.Json: a784019f7e79cf0f65e748d41d4ceb44 -> 9d59cd3ac650f76fc75387cb31643383
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/BlinkController.cs: c4df4825eba5d1e34167ecc85904576b -> 49534fce34d4807e1c2ec9caeb2636dc
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IInputField.cs: 3b444e23da658dbb8eb691f0407d6c68 -> 79745d8d48ebeee8bd9edf6990959057
+  custom:scripting/monoscript/fileName/TTS.cs: d458c279f996ae5bde62a1add9a79379 -> e58992122124f0f065065b7b75fbca50
+  custom:scripting/monoscript/fileName/RokidAIChatController.cs: f347c5cd7843da1c68f57eb52d8cb5b2 -> 6ec8e6e7fc03bac5462bdbbfdd4ec40b
+  custom:scripting/monoscript/fileName/WAV.cs: d51016e623f6858b6ba6da87839e9012 -> 688b3aa37f5272805e3debd48c28ea2a
+  custom:scripting/monoscript/fileName/WhisperSpeechToText.cs: e6ba00a3bb10220f93e868352167e038 -> feb6367dbcc56d019998aa56a3f37a76
+  custom:scripting/monoscript/fileName/scripts.cs: 873f24f717ed145faa3c8e9e32fc7905 -> b98159ed2677ee998f6719a99c0e8b0a
+  custom:scripting/monoscript/fileName/ChatOllama.cs: f3ec6e944f20767634baf59d150e0b36 -> ead7dc8c43eb81b37e916faf8ba34581
+  custom:scripting/monoscript/fileName/ChatSpark.cs: f5c26b5929c6a4e60d5882a036646de6 -> eafef47c3c032d9d158e6fa37007afda
+  custom:scripting/monoscript/fileName/ChatSetting.cs: 8c9907c1189b10744cc86727fe68266e -> 63eabce43e9075a2d0cdfe3cf95073ae
+  custom:scripting/monoscript/fileName/KnowledgeBaidu.cs: 28ff4ec822fdf3ce963ed80d75de6511 -> ef7a00ab11c0618d8bce8010627e6906
+  custom:scripting/monoscript/fileName/UnityWakeOnVoice.cs: 21fa4eb994ae431a618aeb79586e20d6 -> b4b26dc9f435a8e1b5969c6009d38ad8
+  custom:scripting/monoscript/fileName/ALiYunSpeechToText.cs: 49b29578fbdbbaafa111355c32cb7d53 -> 43a67945e1829dd1fa616026fa58d676
+  custom:scripting/monoscript/fileName/RebuildChecker.cs: 172cfda9f8453cda591de3b7c3813ab8 -> 05e5aa14c0f49c60eef992af06b7957c
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ChatBaidu.cs: 49746ad99b19b1062fdd0b8476300f16 -> 381374ff9611dc3a32e41a5ff21a3ce5
+  custom:scripting/monoscript/fileName/ChatSample.cs: 82f2c3784d6b4b6892228d42f5058018 -> f7396634bbb3cd82c028b0394b4c45ae
+  custom:scripting/monoscript/fileName/ChatZhipu.cs: 14987a8e47800b87b7698b3763ce5687 -> 72056b6387a5ddbfebfc1a6da4b2b387
+  custom:scripting/monoscript/fileName/WrappedTMPInputField.cs: 3f966064a3a65cb7f689145ed9ee0f40 -> 00768e7576243ad76bbe56ed5feb5250
+  custom:scripting/monoscript/fileName/AliTokenHelper.cs: 3bd168e91f1fc1600688d5d3a6831c40 -> e987d038b081d6cc92dc293c14ebdaeb
+========================================================================
+Received Import Request.
+  Time since last request: 29.004815 seconds.
+  path: Assets/Prefabs/Prefabs2
+  artifactKey: Guid(ea4ab6ab0e788c348989dc2b8b2d8d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Prefabs2 using Guid(ea4ab6ab0e788c348989dc2b8b2d8d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cf8abd02aea25071d93cd25a1965e4c4') in 0.005860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.898666 seconds.
+  path: Assets/Prefabs/Prefabs/prefabs2/VoiceChat.prefab
+  artifactKey: Guid(120ef9beb6d53f64e9566febd51f42ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Prefabs/prefabs2/VoiceChat.prefab using Guid(120ef9beb6d53f64e9566febd51f42ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f99565dc145e867892f69a18f3b80234') in 0.023047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 35.728900 seconds.
+  path: Assets/Prefabs/ChatAI/Scripts/WanXImageGenerator.cs
+  artifactKey: Guid(dbd5ac8e2e6a28749ae7619caa7c745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ChatAI/Scripts/WanXImageGenerator.cs using Guid(dbd5ac8e2e6a28749ae7619caa7c745d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8aef8867e25548aae709a3cbbbbe9414') in 0.000683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.573 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.375 seconds
+Domain Reload Profiling: 2941ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2375ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (260ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'UVCCamera_Texture_Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Amazing Assets/Wireframe Shader/Dynamic (SM5)/Geometry Shader/Transparent/ZWrite/Wire Only': fallback shader 'Hidden/Amazing Assets/Wireframe Shader/Vertex Lit/Transparent/Wire Only' not found
+Refreshing native plugins compatible for Editor in 23.63 ms, found 12 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (1.8 MB). Loaded Objects now: 7786.
+Memory consumption went from 241.9 MB to 240.0 MB.
+Total: 5.342700 ms (FindLiveObjects: 0.558100 ms CreateObjectMapping: 0.296800 ms MarkObjects: 3.659200 ms  DeleteObjects: 0.827700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/GPTSoVITSTextToSpeech.cs: ea19d245e5f25b7a72ba54faa9597db7 -> a68704a96254576808c0d9b7c066c756
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/WebGLInputMobile.cs: 7d683f3fbd66c3482e9e7d935298590d -> 40dd56566bf085b81e4f5cfbd298c10b
+  custom:scripting/monoscript/fileName/AudioMouthController.cs: 36a60e1ec3d2473e6310a5ffd43fb4f8 -> 3599d49c957cb687e40da3654090bba2
+  custom:scripting/monoscript/fileName/ChatDeepSeek.cs: ee12f6fe221e128eebd47aa2c50450c2 -> 059dd665b53ae8fbad0c4848d7974fab
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GPTSoVITSFASTAPI.cs: 22b795ccfc39b8e4b1de4d218f244c07 -> 721a084bd06049094191971e2ba9af89
+  custom:scripting/monoscript/fileName/BaiduTextToSpeech.cs: 7266192c11dadc48e9726e40a6c2c622 -> 1837222cb0950bfe963ebc42ef61c05c
+  custom:scripting/monoscript/fileName/WrappedInputField.cs: e4afd9d78a51b9ac8aaaeaf1ec367df5 -> 486c72b4c9f4a95af8026409b0ed12cd
+  custom:scripting/monoscript/fileName/AudioToLipSample.cs: 22ef798e4ba1be2fc7c70065e105e201 -> 95cb22de8ff3077a1fe653d8f097b343
+  custom:scripting/monoscript/fileName/RTChatSample.cs: 3eba56aea1115e2680db79df728bc731 -> 0e9704096975723a4e4fdfc4f7319313
+  custom:scripting/monoscript/fileName/XunfeiSettings.cs: 2fbfab50eed4e594460a5d98c30a9430 -> 28996bb5b9b4a18914c6b964653646d6
+  custom:scripting/monoscript/fileName/WavUtility.cs: 0b94047c337a6f07882f8320106e8dc5 -> aac1c3b9b2ff24c6437a36b760f27781
+  custom:scripting/monoscript/fileName/LLM.cs: 075093572c1cbe36bacad69943355a45 -> fa1cbac4c6435584a52061370880b41e
+  custom:scripting/monoscript/fileName/STT.cs: 6020b6ad432af15fd8061bd3fc53918b -> ff1e536b30a4fdc45420d205f2b84d06
+  custom:scripting/monoscript/fileName/WOV.cs: 1873a5695a69a8c1777b7e3c80ebef9c -> 472dccf606928b3dd6167a98417bd6a2
+  custom:scripting/monoscript/fileName/XunfeiSpeechToText.cs: f7cbb1d3353be0b9d0557c66e1e17bc9 -> 8e503e6e681228ea6860acde6669535b
+  custom:scripting/monoscript/fileName/BaiduSpeechToText.cs: bb9d3e66a88b70df3ae582e880019c7e -> 8d2f1ec8f0aafc18327aada1fd44e20c
+  custom:scripting/monoscript/fileName/chatgptTurbo.cs: de687161007834a7c0801696cd2b2362 -> a9dc24759e44892a9090c9f31878fd96
+  custom:scripting/monoscript/fileName/ChatQW.cs: f69a5f43699e8f54e0a86980d3f442c7 -> bdeb300550233151ff60be815a2b29dc
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/DialogueLogger.cs: 781fac9fdb530ab39d71f5462599a935 -> f8a0137973c4c67787330c9cd16bbee0
+  custom:scripting/monoscript/fileName/ChatPrefab.cs: 0e04bd20d06d598c07051b7a67d3c014 -> 0f6e73e4fda4c73af472e45512b86384
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/chatGPT.cs: 9904cd8970b88d936a13e718d47d36b9 -> 890cbbcb8f4d852b421c6c0ebcc13d13
+  custom:scripting/monoscript/fileName/BaiduSettings.cs: 1f70839cf708261261b3326b47156f4f -> e462df85d0a1bfe902e4a4f48df3a61c
+  custom:scripting/monoscript/fileName/WebGLInput.cs: 77351e98e59fd8d5df701e65c47347e3 -> 43d626c8269142b665bda530c04bbfb1
+  custom:scripting/monoscript/fileName/VoiceInputs.cs: 29d3914fb1c24bf88b11ace5630c4787 -> d29e3d2c6fe5c9080bba40a9f94d51c6
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OVRLipSync.cs: 9acb51ed6b6570c39e5640b10e4cb6aa -> f85030cca0d2a9133410e2e1d8f5a714
+  custom:scripting/monoscript/fileName/AzureTextToSpeech.cs: c6294e71e3a6770f6aca8577b97c29b9 -> e1f2e268ccef7e6d3e6e87edde3fb177
+  custom:scripting/monoscript/fileName/AzureSettings.cs: cd8e6b4bce6e9be7487c34c639721305 -> 0ee8ea6fcb2e011d825e0b5fc82b99c5
+  custom:scripting/monoscript/fileName/AppBuilderBaidu.cs: a2ba2d6578f68d736c80a5aec920b606 -> cb6998ff9f6403472ada5c8e6cac9749
+  custom:scripting/monoscript/fileName/AzureSpeechToText.cs: 48ece89ab1f66431b627239e77dfc518 -> b4e6ab83c9a7dff08c17ae92eb3af4df
+  custom:scripting/monoscript/fileName/OpenAITextToSpeech.cs: 6ce7c060f22cef4401edc307baa90cda -> c8ed6e7d770a8f459fca73adf1c14dcc
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/chatGLM.cs: cbbb8e64b90636a97991430f9702a981 -> 1663675411a5cd7023626996bac08b69
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0570e0f65a9aa200784db73ad54bd228 -> 7bea606187803a1c09a2bb3b1f9f4696
+  custom:scripting/monoscript/fileName/VoiceChat.cs: 821ff0dd528aedf32745143d3757a8aa -> 242f0c19912a067bc8e92f9340ca3f14
+  custom:scripting/monoscript/fileName/ALiYunTextToSpeech.cs: 5dac6206b07e295380e5aab3ea4c5d54 -> 5947bbdba9b3600005955ddfa826d0ea
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/Audio2LipScript.cs: 369c9c9ebf8c90e2e66281cf286b7410 -> f32823459dfe828789d8dc5a7a1440d5
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/chatRWKV.cs: 08584730d6cbdb37736829d660d13228 -> 7da58ff3bc199e76ddc6acaa33c79df9
+  custom:scripting/monoscript/fileName/RTSpeechHandler.cs: e5e0969587409813f8d79053856223c4 -> 0c399d7da0d14aae8f09c0f83ea73f3e
+  custom:scripting/monoscript/fileName/XunfeiTextToSpeech.cs: 5054deabc5569b1dc85b938de7d13a74 -> 8b2f0c3e8154af9a5d5fae03e6a7fe76
+  custom:scripting/monoscript/fileName/WanXImageGenerator.cs: 146c434fd0726705dfd2577a77d1ac3a -> b889d4617454b3c70c73b4bb810b2105
+  custom:scripting/monoscript/fileName/WebGLWindow.cs: 7b4876243cb16a983f880f640bd90923 -> f955d4804a614edefd0693a436454073
+  custom:scripting/monoscript/fileName/OpenAISpeechToText.cs: 02e982e24404df42c536e362f03eeb34 -> f49c0dd6fb4829328980b136788b6a60
+  custom:scripting/precompiled-assembly-types:Newtonsoft.Json: a784019f7e79cf0f65e748d41d4ceb44 -> 9d59cd3ac650f76fc75387cb31643383
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:scripting/monoscript/fileName/BlinkController.cs: c4df4825eba5d1e34167ecc85904576b -> 49534fce34d4807e1c2ec9caeb2636dc
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/IInputField.cs: 3b444e23da658dbb8eb691f0407d6c68 -> 79745d8d48ebeee8bd9edf6990959057
+  custom:scripting/monoscript/fileName/TTS.cs: d458c279f996ae5bde62a1add9a79379 -> e58992122124f0f065065b7b75fbca50
+  custom:scripting/monoscript/fileName/RokidAIChatController.cs: f347c5cd7843da1c68f57eb52d8cb5b2 -> 6ec8e6e7fc03bac5462bdbbfdd4ec40b
+  custom:scripting/monoscript/fileName/WAV.cs: d51016e623f6858b6ba6da87839e9012 -> 688b3aa37f5272805e3debd48c28ea2a
+  custom:scripting/monoscript/fileName/WhisperSpeechToText.cs: e6ba00a3bb10220f93e868352167e038 -> feb6367dbcc56d019998aa56a3f37a76
+  custom:scripting/monoscript/fileName/scripts.cs: 873f24f717ed145faa3c8e9e32fc7905 -> b98159ed2677ee998f6719a99c0e8b0a
+  custom:scripting/monoscript/fileName/ChatOllama.cs: f3ec6e944f20767634baf59d150e0b36 -> ead7dc8c43eb81b37e916faf8ba34581
+  custom:scripting/monoscript/fileName/ChatSpark.cs: f5c26b5929c6a4e60d5882a036646de6 -> eafef47c3c032d9d158e6fa37007afda
+  custom:scripting/monoscript/fileName/ChatSetting.cs: 8c9907c1189b10744cc86727fe68266e -> 63eabce43e9075a2d0cdfe3cf95073ae
+  custom:scripting/monoscript/fileName/KnowledgeBaidu.cs: 28ff4ec822fdf3ce963ed80d75de6511 -> ef7a00ab11c0618d8bce8010627e6906
+  custom:scripting/monoscript/fileName/UnityWakeOnVoice.cs: 21fa4eb994ae431a618aeb79586e20d6 -> b4b26dc9f435a8e1b5969c6009d38ad8
+  custom:scripting/monoscript/fileName/ALiYunSpeechToText.cs: 49b29578fbdbbaafa111355c32cb7d53 -> 43a67945e1829dd1fa616026fa58d676
+  custom:scripting/monoscript/fileName/RebuildChecker.cs: 172cfda9f8453cda591de3b7c3813ab8 -> 05e5aa14c0f49c60eef992af06b7957c
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ChatBaidu.cs: 49746ad99b19b1062fdd0b8476300f16 -> 381374ff9611dc3a32e41a5ff21a3ce5
+  custom:scripting/monoscript/fileName/ChatSample.cs: 82f2c3784d6b4b6892228d42f5058018 -> f7396634bbb3cd82c028b0394b4c45ae
+  custom:scripting/monoscript/fileName/ChatZhipu.cs: 14987a8e47800b87b7698b3763ce5687 -> 72056b6387a5ddbfebfc1a6da4b2b387
+  custom:scripting/monoscript/fileName/WrappedTMPInputField.cs: 3f966064a3a65cb7f689145ed9ee0f40 -> 00768e7576243ad76bbe56ed5feb5250
+  custom:scripting/monoscript/fileName/AliTokenHelper.cs: 3bd168e91f1fc1600688d5d3a6831c40 -> e987d038b081d6cc92dc293c14ebdaeb
+========================================================================
+Received Import Request.
+  Time since last request: 244.814834 seconds.
+  path: Assets/Prefabs/ChatAI/Scripts/Tool
+  artifactKey: Guid(75f9663b6731a8446aab9b91dd929485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ChatAI/Scripts/Tool using Guid(75f9663b6731a8446aab9b91dd929485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4e6e8de69fb126cf6cc76bdf22d29f1b') in 0.005711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.088305 seconds.
+  path: Assets/Prefabs/Prefabs2/ImageGenerator.prefab
+  artifactKey: Guid(7c2bdb3fa55fe3d42904eb5fea8cf4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Prefabs2/ImageGenerator.prefab using Guid(7c2bdb3fa55fe3d42904eb5fea8cf4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'd2cf3a4662ed8b5f5679df502bdfc5b6') in 0.019377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 13.248720 seconds.
+  path: Assets/Prefabs/Prefabs2/AR Grid Plane.prefab
+  artifactKey: Guid(cfae0e51f66512847987f3201c2a2b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Prefabs2/AR Grid Plane.prefab using Guid(cfae0e51f66512847987f3201c2a2b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '151692bbd417e7787102ebff350ebfa3') in 0.150406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 4.473205 seconds.
+  path: Assets/Prefabs/Prefabs2/CHATAI.prefab
+  artifactKey: Guid(15e70dbc46b755c4dbaa14112086291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Prefabs2/CHATAI.prefab using Guid(15e70dbc46b755c4dbaa14112086291a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9008811f96ece690d079b208cf6e67d7') in 0.003966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 2.296883 seconds.
+  path: Assets/Prefabs/Prefabs2/RKCameraRig Variant.prefab
+  artifactKey: Guid(e0f92cd0b530456498c049d3fe0d926e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Prefabs2/RKCameraRig Variant.prefab using Guid(e0f92cd0b530456498c049d3fe0d926e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e2a5518fc92e8a4685c32c21b0774f41') in 0.004461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
